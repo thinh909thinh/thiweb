@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(135, 125, 79, 0.803);    
+}
+button:hover{
+    background-color: rgb(241, 157, 157);
+}
+.btn_s{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px;
+
+}
+.input1{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+.img{
+    width: 220px;
+    height: 80px;
+    margin-left: 50px;
+
+}
+.img img{
+    width: 120px;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.button1{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+
+}
+.imgbg{
+    width: 100%;
+    height: 700px;
+}
+.imgbg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.all_text{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.all_text .text{
+    width: 30%;
+    height: 200px;
+}
+.all_text .text p{
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px;
+    color: rgb(80, 78, 78);
+}
+section{
+    background-color: azure;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    padding-top:30px ;
+}
+.main .h2{
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+   
+}
+.main .big_card{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.main .big_card .card{
+    width: 22%;
+    height: 100%;
+
+}
+.main .big_card .card .card_top{
+    width: 100%;
+    height:250px ;
+    overflow: hidden;
+}
+.card_top img:hover{
+
+    animation: ac 0.2s 1 linear forwards;
+    cursor: pointer;
+}
+.main .big_card .card .card_bot{
+    width: 100%;
+    height:250px ;
+
+    margin-top: 20px;
+}
+.main .big_card .card .card_top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main .big_card .card .card_bot p{
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(80, 78, 78);
+    border:1px dotted grey
+    
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(135, 125, 79, 0.803);
+}
+footer .footer_top{
+    width: 100%;
+    height: 250px;
+    padding-top: 40px;
+}
+footer .footer_top .sing_up{
+    width: 100%;
+    height: 100%;
+    margin-left: 26px;
+}
+footer .footer_bot{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(229, 255, 127);
+}
+footer .footer_top .footer_left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+footer .footer_top .footer_right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.asl{
+    position: relative;
+}
+.btn1{
+    width: 500px;
+    height: 70px;
+    cursor: pointer;
+}
+.email_cta{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.email_cta .email{
+    width: 380px;
+    height: 60px;
+}
+@keyframes ac {
+    to {
+        transform: translateY(-15px);
+
+    }
+}
+.btn2{
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer_text{
+    width: 25%;
+    height:80%;
+}
+ul{
+    list-style: none;
+}
+li{
+    display:block;
+    margin-top: 5px;
+}
+.footer_bot{
+    display: flex;
+    justify-content: center;
+}
+.icon_bot{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
